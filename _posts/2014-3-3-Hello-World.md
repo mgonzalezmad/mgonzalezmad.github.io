@@ -61,6 +61,30 @@ Diferenciando por fechas especiales y no especiales, no se encuentra una diferen
 
 En la figura se observa que los años que menor cantidad de accidentes tienen son el 2014 y el 2020, esto porque para el 2014 se tiene información desde Julio y en el 2020 se tiene información hasta agosto. Todos los otros años tienen un número similar de accidentes que se encuentra al rededor de los 40000.
 
+![_config.yml]({{ site.baseurl }}/images/img6.PNG)
+
+Se puede observar que cuando se hace el gráfico por mes todos tienen valores similares en cuánto al total de accidentes, los meses con un mayor número de estos son Julio y Agosto (cabe recordar que estos están incluidos en 2014 y 2020 mientras que otros no), y el de menor frecuencia de accidentes es abril.
 
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+
+
+
+La comuna que peresenta mayor accidentalidad es la de la candelaria, con casi un 20% del total, seguido por las co,unas de Laureles-Estadio y castilla. Por el contrario, las comunas con menor número de accidentes son algunos de los corregimientos, Santa cruz y el popular.
+
+# Agrupamiento
+
+Para el agrupamiento, se carga a base de datos con las fechas y los festivos calculados: dejando de un lado las comunas que no tienen información relacionada con la geolocalización. Luego se realiza el conjunto entre barrio y comuna para obtener el número de accidentes y poder calcular para cada uno de estos la gravedad del incidente. 
+Para la selección del número de grupos se utilizó el método de K-medias, que tiene como objetivo la partición de un conjunto de n observaciones en k grupos en el que cada observación pertenece al grupo cuyo valor medio es más cercano, finalmente se seleccionan 4 grupos para el análisis. 
+
+# Modelos predictivos
+
+Para los modelos predictivos se utilizaron dos metodologías y se pusieron en competencia para revisar cuál tenía un mejor desempeño. 
+La primer metodología es un modelo de regresión lineal múltiple, usando como criterio de selección de variables el del mejor subconjunto; la segunda metodolgía son bosques aleatorios (2) en los que cada uno tiene un número diferente de variables. 
+
+# Bibliografía
+
+La información presentada anteriormente incluye cifras y datos de la Organización Mundial de la Salud, MEData y periodicos locales. "Traumatismos causados por el tránsito" y "Global status report on road safety 2018" de la  OMS.
+https://www.who.int/es/news-room/fact-sheets/detail/road-traffic-injuries
+https://www.who.int/publications/i/item/9789241565684
+https://www.elcolombiano.com/antioquia/medellin-registra-mas-de-100-muertos-por-incidentes-viales-KN15187629
+http://medata.gov.co/dataset/incidentes-viales/resource/289abd63-59d1-49b7-9dc8-c4b478a054e9#{view-map:{geomField:!LOCATION}}
