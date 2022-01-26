@@ -23,9 +23,9 @@ La base de datos proviene del MEData, que contiene datos s de la ciudad de Medel
 
 A continuación se muestra la descripción de la base: 
 
-![_config.yml]({{ site.baseurl }}/images/tabla1_1.png)
+![_config.yml]({{ site.baseurl }}/images/tabla1_1.PNG)
 
-![_config.yml]({{ site.baseurl }}/images/tabla2.png)
+![_config.yml]({{ site.baseurl }}/images/tabla2.PNG)
 
 # Tratamiento de Datos
 
@@ -40,11 +40,11 @@ Se seleccionan las comunas necesarias para realizar el análisis, esto para tene
 
 - YEAR, CBML, CLASE_ACCIDENTE, DISENO, GRAVEDAD_ACCIDENTE,MES,NUMCOMUNA,BARRIO,COMUNA,Fecha_accid,fecha, hora_acc,dia, hora_pico,FESTIVO y Fines_semana.
 
-![_config.yml]({{ site.baseurl }}/images/img1_1.png)
+![_config.yml]({{ site.baseurl }}/images/img1_1.PNG)
 
 Se observa que al rededor de un 66% de los accidentes son choques teniendo la mayor participación, la clase que le sigue es la de "otros" con un 11% del total y los atropellos y las caídas de ocupantes tienen una particiáción similar, con un  9% cada una.Por otro lado, los volcamientos y los incendios son las clases que menos se observan, pues en conjunto representan un 4% aproximadamente.
 
-![_config.yml]({{ site.baseurl }}/images/img2_1.png)
+![_config.yml]({{ site.baseurl }}/images/img2_1.PNG)
 
 Más de la mitad de los accidentes tienen heridos, para ser exactos un 55% de ellos, un 0.13% tiene personas muertas reportadas y el 44% aprox. que resta es atribuido a accidentes que solo tienen daños, es decir no reportan heridos y/o muertos. 
 
