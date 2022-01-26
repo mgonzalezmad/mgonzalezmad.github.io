@@ -38,7 +38,7 @@ En hora pico marcamos 1 para los horarios de accidentes ocurridos entre las 7:00
 
 Se seleccionan las comunas necesarias para realizar el análisis, esto para tener un poco más de orden con el tratamiento y análisis de los datos. Las variables consideradas son: 
 
-- YEAR, CBML, CLASE_ACCIDENTE, DISENO, GRAVEDAD_ACCIDENTE,MES,NUMCOMUNA,BARRIO,COMUNA,Fecha_accid,fecha, hora_acc,dia, hora_pico,FESTIVO y Fines_semana.
+- Año, mes, CBML, clase de accidente, gravedad, comuna, barrio, número de comuna, fecha del accidente, hora del accidente y las indicadoras de hora pico, festivos y fines de semana.
 
 ![_config.yml]({{ site.baseurl }}/images/img1_1.PNG)
 
@@ -47,6 +47,19 @@ Se observa que al rededor de un 66% de los accidentes son choques teniendo la ma
 ![_config.yml]({{ site.baseurl }}/images/img2_1.PNG)
 
 Más de la mitad de los accidentes tienen heridos, para ser exactos un 55% de ellos, un 0.13% tiene personas muertas reportadas y el 44% aprox. que resta es atribuido a accidentes que solo tienen daños, es decir no reportan heridos y/o muertos. 
+
+
+Como se mencionó anteriormente, se decide crear variables indicadoras para los fines de semana y los días festivos en cada uno de los años, esto para analizar el comportamiento de los accidentes y si existe alguna diferencia entre estos y los días normales de la semana. 
+Al rededor del 28% de los accidentes ocurrieron en fines de semana o días festivos, mientras que el resto (72% aprox) ocurren en días normales de semana. 
+
+![_config.yml]({{ site.baseurl }}/images/img3.PNG)
+![_config.yml]({{ site.baseurl }}/images/img4.PNG)
+
+Diferenciando por fechas especiales y no especiales, no se encuentra una diferencia muy significativa en cuánto a la gravedad de los accidentes, por ejemplo, para las fechas especiales alrededor del 59% incluyen heridos, mientras que para los días de semana son al rededor del 54% los que los tienen.
+
+![_config.yml]({{ site.baseurl }}/images/img5.PNG)
+
+En la figura se observa que los años que menor cantidad de accidentes tienen son el 2014 y el 2020, esto porque para el 2014 se tiene información desde Julio y en el 2020 se tiene información hasta agosto. Todos los otros años tienen un número similar de accidentes que se encuentra al rededor de los 40000.
 
 
 
