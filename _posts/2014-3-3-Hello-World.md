@@ -65,7 +65,7 @@ En la figura se observa que los años que menor cantidad de accidentes tienen so
 
 Se puede observar que cuando se hace el gráfico por mes todos tienen valores similares en cuánto al total de accidentes, los meses con un mayor número de estos son Julio y Agosto (cabe recordar que estos están incluidos en 2014 y 2020 mientras que otros no), y el de menor frecuencia de accidentes es abril.
 
-
+### pendiente gráfico de comunas
 
 
 
@@ -73,13 +73,17 @@ La comuna que peresenta mayor accidentalidad es la de la candelaria, con casi un
 
 # Agrupamiento
 
-Para el agrupamiento, se carga a base de datos con las fechas y los festivos calculados: dejando de un lado las comunas que no tienen información relacionada con la geolocalización. Luego se realiza el conjunto entre barrio y comuna para obtener el número de accidentes y poder calcular para cada uno de estos la gravedad del incidente. 
+Para el agrupamiento, se carga La base de datos con las fechas y los festivos calculados: dejando de un lado las comunas que no tienen información relacionada con la geolocalización. Luego se realiza el conjunto entre barrio y comuna para obtener el número de accidentes y poder calcular para cada uno de estos la gravedad del incidente. 
 Para la selección del número de grupos se utilizó el método de K-medias, que tiene como objetivo la partición de un conjunto de n observaciones en k grupos en el que cada observación pertenece al grupo cuyo valor medio es más cercano, finalmente se seleccionan 4 grupos para el análisis. 
 
 # Modelos predictivos
 
 Para los modelos predictivos se utilizaron dos metodologías y se pusieron en competencia para revisar cuál tenía un mejor desempeño. 
-La primer metodología es un modelo de regresión lineal múltiple, usando como criterio de selección de variables el del mejor subconjunto; la segunda metodolgía son bosques aleatorios (2) en los que cada uno tiene un número diferente de variables. 
+La primer metodología es un modelo de regresión lineal múltiple, usando como criterio de selección de variables el del mejor subconjunto; la segunda metodolgía son los bosques aleatorios (2) en los que cada uno tiene un número diferente de variables. 
+
+###### pendiente tabla con medidas de error 
+# citar bien la bibliografía
+
 
 # Bibliografía
 
