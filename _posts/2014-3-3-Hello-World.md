@@ -65,12 +65,9 @@ En la figura se observa que los años que menor cantidad de accidentes tienen so
 
 Se puede observar que cuando se hace el gráfico por mes todos tienen valores similares en cuánto al total de accidentes, los meses con un mayor número de estos son Julio y Agosto (cabe recordar que estos están incluidos en 2014 y 2020 mientras que otros no), y el de menor frecuencia de accidentes es abril.
 
+![_config.yml]({{ site.baseurl }}/images/img7.PNG)
 
-### pendiente gráfico de comunas
-
-
-
-La comuna que peresenta mayor accidentalidad es la de la candelaria, con casi un 20% del total, seguido por las co,unas de Laureles-Estadio y castilla. Por el contrario, las comunas con menor número de accidentes son algunos de los corregimientos, Santa cruz y el popular.
+La comuna que peresenta mayor accidentalidad es la de la candelaria, con casi un 20% del total, seguido por las comunas de Laureles-Estadio y castilla. Por el contrario, las comunas con menor número de accidentes son algunos de los corregimientos, Santa cruz y el popular.
 
 # Agrupamiento
 
