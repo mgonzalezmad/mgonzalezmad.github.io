@@ -8,18 +8,18 @@ published: true
 
 Los incidentes de tránsito representan un gran porcentaje de las causas de mortalidad a nivel mundial, cada año se pierden aproximadamente 1.3 millones de vidas en consecuencia de estos. Por otro lado, las personas heridas son alrededor de 20 y 50 millones tienen algún traumatismo no mortal y muchos de estos generan algún tipo de discapacidad. 
 
-Los accidentes traen consigo muchos problemas que quizás no se tienen mapeados directamente, con esto se hace referencia a lo que menciona tanto la OMS sobre las consecuencias y la magnitud de las pérdidas económicas para las personas afectadas, sus familias y los países en conjunto; pues el costo de los tratamientos y la pérdida de productividad (hablando de las personas que quedan discapacitadas o mueren, o inclusive el tiempo de trabajo que sus familiares sacrifican para atenderlos). Los incidentes de tránsito cuestan a la mayoría de los países el 3% de su PIB, demostrando así, que este tipo de incidentes afecta en un porcentaje algunos indicadores macroeconómicos.
+Los accidentes traen consigo muchos problemas que quizás no se tienen mapeados directamente, con esto se hace referencia a lo que menciona tanto la OMS sobre las consecuencias y la magnitud de las pérdidas económicas para las personas afectadas, sus familias y los países en conjunto; pues el costo de los tratamientos y la pérdida de productividad (hablando de las personas que quedan discapacitadas o mueren, o inclusive el tiempo de trabajo que sus familiares sacrifican para atenderlos). Los incidentes de tránsito cuestan a la mayoría de los países el 3% de su PIB, demostrando así, que este tipo de incidentes afecta en un porcentaje algunos indicadores macroeconómicos. (Organización Mundial de la Salud, 2021) 
 
 # Planteamiento del problema
 
-Es importante realizar un análisis de la accidentalidad en la ciudad de Medellín, pues las cifras en los países de ingresos bajos y medios producen aproximadamente el 93% de defunciones relacionadas con incidentes de tránsito a nivel mundial. También sería interesante revisar si quizás a largo plazo la reducción y el tratamiento de los mismos pueda disminuir (de alguna manera) los índices de pobreza, puesto que es una ciudad en la que una significativa cantidad de la población se dedica al trabajo informal o que incluye manufactura y una discapacidad puede impedirles la posibilidad de trabajo.
+Es importante realizar un análisis de la accidentalidad en la ciudad de Medellín, pues las cifras en los países de ingresos bajos y medios producen aproximadamente el 93% de defunciones relacionadas con incidentes de tránsito a nivel mundial (Global Status Report on Road Safety 2018, 2019). También sería interesante revisar si quizás a largo plazo la reducción y el tratamiento de los mismos pueda disminuir (de alguna manera) los índices de pobreza, puesto que es una ciudad en la que una significativa cantidad de la población se dedica al trabajo informal o que incluye manufactura y una discapacidad puede impedirles la posibilidad de trabajo. 
 
-La aplicación tiene como finalidad predecir el número de incidentes viales teniendo en cuenta variables geográficas, fechas e información sobre los accidentes y su nivel de gravedad, esto para poder aplicar algún tipo de tratamiento en los sectores "problema", que ayude a definir la implementación de semáforos, cruces peatonales u otras alternativas que puedan reducir en alguna medida estas cifras.
+La aplicación tiene como finalidad predecir el número de incidentes viales en la ciudad de Medellín teniendo en cuenta variables geográficas, fechas e información sobre los accidentes y su nivel de gravedad, esto para poder aplicar algún tipo de tratamiento en los sectores "problema", que ayude a definir la implementación de semáforos, cruces peatonales u otras alternativas que puedan reducir en alguna medida estas cifras.
 
 
 # Base de datos
 
-La base de datos proviene del MEData, que contiene datos s de la ciudad de Medellín para que estos puedan ser usados como  herramienta de gobierno, acción ciudadana y toma de decisiones. 
+La base de datos proviene del MEData, que contiene datos s de la ciudad de Medellín para que estos puedan ser usados como  herramienta de gobierno, acción ciudadana y toma de decisiones. (Alcaldía de Medellín, 2021)
 
 A continuación se muestra la descripción de la base: 
 
@@ -80,12 +80,16 @@ Para los modelos predictivos se utilizaron dos metodologías y se pusieron en co
 La primer metodología es un modelo de regresión lineal múltiple, usando como criterio de selección de variables el del mejor subconjunto; la segunda metodolgía son los bosques aleatorios (2) en los que cada uno tiene un número diferente de variables. 
 
 ###### pendiente tabla con medidas de error 
-# citar bien la bibliografía
 
 
 # Bibliografía
 
-La información presentada anteriormente incluye cifras y datos de la Organización Mundial de la Salud, MEData y periodicos locales. "Traumatismos causados por el tránsito" y "Global status report on road safety 2018" de la  OMS.
+-Organización Mundial de la Salud. (2021). Traumatismos causados por el tránsito. Recuperado 3 de diciembre del 2021, de https://www.who.int/es/news-room/fact-sheets/detail/road-traffic-injuries.
+-World Health Organization. (2019). Global Status Report on Road Safety 2018. Geneva.
+-Molina Marín, L. (2021). Medellín supera cien muertes por incidentes viales. Recuperado 6 de diciembre del 2021, de https://www.elcolombiano.com/antioquia/medellin-registra-mas-de-100-muertos-por-incidentes-viales-KN15187629.
+-Alcaldía de Medellín. (2021). Incidentes viales. Recuperado 7 de diciembre del 2021, de http://medata.gov.co/dataset/incidentes-viales/resource/289abd63-59d1-49b7-9dc8-c4b478a054e9#{view-graph:{graphOptions:{hooks:{processOffset:{},bindEvents:{}}}},graphOptions:{hooks:{processOffset:{},bindEvents:{}}},view-map:{geomField:!LOCATION}}.
+
+
 https://www.who.int/es/news-room/fact-sheets/detail/road-traffic-injuries
 https://www.who.int/publications/i/item/9789241565684
 https://www.elcolombiano.com/antioquia/medellin-registra-mas-de-100-muertos-por-incidentes-viales-KN15187629
