@@ -86,6 +86,9 @@ Teniendo en cuenta la tabla anterior, se selecciona el modelo 3 (bosque aleatori
 # Bibliografía
 
 -Organización Mundial de la Salud. (2021). Traumatismos causados por el tránsito. Recuperado 3 de diciembre del 2021, de https://www.who.int/es/news-room/fact-sheets/detail/road-traffic-injuries.
+
 -World Health Organization. (2019). Global Status Report on Road Safety 2018. Geneva.
+
 -Molina Marín, L. (2021). Medellín supera cien muertes por incidentes viales. Recuperado 6 de diciembre del 2021, de https://www.elcolombiano.com/antioquia/medellin-registra-mas-de-100-muertos-por-incidentes-viales-KN15187629.
+
 -Alcaldía de Medellín. (2021). Incidentes viales. Recuperado 7 de diciembre del 2021, de http://medata.gov.co/dataset/incidentes-viales/resource/289abd63-59d1-49b7-9dc8-c4b478a054e9#{view-graph:{graphOptions:{hooks:{processOffset:{},bindEvents:{}}}},graphOptions:{hooks:{processOffset:{},bindEvents:{}}},view-map:{geomField:!LOCATION}}.
