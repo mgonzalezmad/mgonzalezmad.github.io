@@ -90,7 +90,3 @@ La primer metodología es un modelo de regresión lineal múltiple, usando como 
 -Alcaldía de Medellín. (2021). Incidentes viales. Recuperado 7 de diciembre del 2021, de http://medata.gov.co/dataset/incidentes-viales/resource/289abd63-59d1-49b7-9dc8-c4b478a054e9#{view-graph:{graphOptions:{hooks:{processOffset:{},bindEvents:{}}}},graphOptions:{hooks:{processOffset:{},bindEvents:{}}},view-map:{geomField:!LOCATION}}.
 
 
-https://www.who.int/es/news-room/fact-sheets/detail/road-traffic-injuries
-https://www.who.int/publications/i/item/9789241565684
-https://www.elcolombiano.com/antioquia/medellin-registra-mas-de-100-muertos-por-incidentes-viales-KN15187629
-http://medata.gov.co/dataset/incidentes-viales/resource/289abd63-59d1-49b7-9dc8-c4b478a054e9#{view-map:{geomField:!LOCATION}}
