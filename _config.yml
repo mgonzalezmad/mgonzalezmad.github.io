@@ -9,7 +9,7 @@ name: Primer entregable TAE
 description: David Hernández Pérez, Valentina López Montoya y Marisol González Madrid.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOoAAAB7CAMAAABNcOyaAAAAb1BMVEX///8AAADv7+/39/e3t7dnZ2cfHx+fn5/Pz89HR0cXFxfHx8c3Nzdvb2/f399XV1ePj4/X19dPT08/Pz9/f3+/v7+Hh4deXl6np6d3d3cvLy9VVVUnJycPDw+urq55eXmXl5fn5+eDg4MsLCwTExMuPZ+oAAAQkUlEQVR4nO1cibqrqJpFUIEgCCiCM5q8/zM2OGTY53T3rXNTtXvfzvrq28kRh3/BP0sKgA8++OCDDz744IMPPvjggw8++OCDDz745yDMd0vwT2EZ8v8vXMma8O+W4W8H4nRw4bPzALCuKuF3C/T3QXsphmCryQRAP3lX/cdxJW3N4ufUVpPsFiYQmEA++QKv8bCQLfteAd+GXgpmI6liyirGhzEvi+RaLEPjCwSAK41qiv+I9U05UBBkE0BVjYtmoUnEoBqLS0
+avatar: https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Logotipo_de_la_Universidad_Nacional_de_Colombia.svg/200px-Logotipo_de_la_Universidad_Nacional_de_Colombia.svg.png
 
 #
 # Flags below are optional
