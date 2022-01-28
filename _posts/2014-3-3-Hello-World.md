@@ -79,8 +79,9 @@ Para la selección del número de grupos se utilizó el método de K-medias, que
 Para los modelos predictivos se utilizaron dos metodologías y se pusieron en competencia para revisar cuál tenía un mejor desempeño. 
 La primer metodología es un modelo de regresión lineal múltiple, usando como criterio de selección de variables el del mejor subconjunto; la segunda metodolgía son los bosques aleatorios (2) en los que cada uno tiene un número diferente de variables. 
 
-###### pendiente tabla con medidas de error 
+![_config.yml]({{ site.baseurl }}/images/tabla3.PNG)
 
+Teniendo en cuenta la tabla anterior, se selecciona el modelo 3 (bosque aleatorio) como el de mejor desempeño, este incluye las variables de año, mes, día, las indicadoras de festivos, fines de semana y hora pico, también tiene en cuenta la gravedad y el tipo de accidente.
 
 # Bibliografía
 
